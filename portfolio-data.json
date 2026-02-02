@@ -1,0 +1,199 @@
+{
+  "settings": {
+    "name": "Shitanshu Kumarrrrrrrrrrrrrrrr",
+    "location": "",
+    "profileImage": "",
+    "summary": "",
+    "title": ""
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "ctaButtons": [
+        {
+          "text": "View Projects",
+          "url": "#projects"
+        },
+        {
+          "text": "Connect",
+          "url": "#contact"
+        }
+      ]
+    },
+    "about": {
+      "enabled": true,
+      "skills": {
+        "enabled": true,
+        "title": "Technical Skills",
+        "items": [
+          "JavaScript",
+          "TypeScript",
+          "Java",
+          "Python",
+          "HTML",
+          "CSS",
+          "React",
+          "Next.js",
+          "Node.js",
+          "Express",
+          "Konva.js",
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Supabase",
+          "Cloudinary"
+        ]
+      }
+    },
+    "experience": {
+      "enabled": false,
+      "title": "Experience",
+      "items": []
+    },
+    "projects": {
+      "enabled": true,
+      "title": "Projects",
+      "items": [
+        {
+          "title": "SvgFromImg",
+          "description": "Developed a full-stack system converting raster images to vector graphics using Potrace and Next.js. Implemented Cloudinary for secure uploads and Supabase for storing generated SVGs. Designed robust API for processing.",
+          "tags": [
+            "Next.js",
+            "TypeScript",
+            "Potrace",
+            "Cloudinary",
+            "Supabase"
+          ],
+          "previewUrl": "https://example.com/svgfromimg-demo",
+          "repoUrl": "https://github.com/shitanshu/SvgFromImg"
+        },
+        {
+          "title": "Drawspace",
+          "description": "Built an interactive whiteboard with Konva.js, supporting free-drawing, shapes, and real-time updates. Implemented object manipulation like selection, resizing, and rotation. Created modular drawing tools with Zustand for state management.",
+          "tags": [
+            "Next.js",
+            "TypeScript",
+            "Konva.js",
+            "Zustand"
+          ],
+          "previewUrl": "https://example.com/drawspace-demo",
+          "repoUrl": "https://github.com/shitanshu/Drawspace"
+        },
+        {
+          "title": "LogicWorks",
+          "description": "Engineered a platform to create, edit, and manage logic circuits with node-based components using Next.js and XYFlow. Designed custom modular gate nodes with drag-and-drop and precise connections, supported by efficient tooling.",
+          "tags": [
+            "Next.js",
+            "TypeScript",
+            "XYFlow"
+          ],
+          "previewUrl": "https://example.com/logicworks-demo",
+          "repoUrl": "https://github.com/shitanshu/LogicWorks"
+        }
+      ]
+    },
+    "education": {
+      "enabled": true,
+      "title": "Education",
+      "items": [
+        {
+          "institution": "RNS Institute of Technology, Bangalore",
+          "degree": "Bachelor of Science in Computer Science",
+          "period": "2024 – Ongoing"
+        },
+        {
+          "institution": "Saraswati Vidyamandir, Bihar",
+          "degree": "Senior Secondary",
+          "period": "2022–2024"
+        }
+      ]
+    },
+    "achievements": {
+      "enabled": true,
+      "title": "Achievements & Certifications",
+      "items": [
+        {
+          "title": "LeetCode Problem Solving",
+          "description": "Solved 300+ data structures and algorithms problems. Participated in 25+ contests, achieving a highest rating of 1619."
+        },
+        {
+          "title": "CodeChef Competitive Programming",
+          "description": "Solved 100+ problems with a focus on competitive programming. Participated in 25+ rated contests, with a highest rating of 1405."
+        },
+        {
+          "title": "JavaScript (Intermediate) Certification - HackerRank",
+          "description": "Demonstrated advanced JavaScript skills, including ES6+, asynchronous programming, closures, and data structures for optimized problem-solving."
+        },
+        {
+          "title": "React Basics Certification - HackerRank",
+          "description": "Mastered React fundamentals: JSX, components, state management, and event handling for building interactive user interfaces."
+        }
+      ]
+    },
+    "contact": {
+      "enabled": true,
+      "title": "Contact",
+      "email": "",
+      "location": "",
+      "phone": ""
+    },
+    "social": {
+      "enabled": true,
+      "items": [
+        {
+          "platform": "GitHub",
+          "url": "https://github.com/shitanshu",
+          "icon": "github"
+        },
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/shitanshu",
+          "icon": "linkedin"
+        },
+        {
+          "platform": "LeetCode",
+          "url": "https://leetcode.com/shitanshu",
+          "icon": "code"
+        },
+        {
+          "platform": "CodeChef",
+          "url": "https://www.codechef.com/users/shitanshu",
+          "icon": "code"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "enabled": true,
+    "items": [
+      {
+        "name": "About",
+        "url": "#about"
+      },
+      {
+        "name": "Skills",
+        "url": "#about"
+      },
+      {
+        "name": "Projects",
+        "url": "#projects"
+      },
+      {
+        "name": "Education",
+        "url": "#education"
+      },
+      {
+        "name": "Achievements",
+        "url": "#achievements"
+      },
+      {
+        "name": "Contact",
+        "url": "#contact"
+      }
+    ]
+  },
+  "footer": {
+    "enabled": true,
+    "copyright": "© 2024 Shitanshu Kumar"
+  }
+}
